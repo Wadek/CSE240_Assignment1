@@ -1,0 +1,29 @@
+Wade Kariniemi 1202111213
+CSE 240
+
+Biggest differences between Visual Studio and a text editor on linux environment:
+
+1. Compiling
+  linux: I use vim, which has a simple .vim file added to the plugins in order to make the compiling easier. I bound my f10 to execute a gcc command that compiles, if no error found
+         creates the program file using the same name as the program.c name. It has similar functionality to visual studio in that only one keystroke is needed to compile (f10). 
+         Everything is done in terminal, or in vim so there are no real visual aids, it is run at a very low resource intensity.
+
+  Visual Studio: Huge benefit of this is constant compilation in the background, so you get instant feedback on errors. Quite handy, but high in resource usage (not ideal with a cheap machine).
+                 Alternatively, you could use a simple f5 command. Another big difference is the use of a mouse or trackpad. Because I prefer using a full keyboard layout, as it improves speed,
+                 I found this cumbersome and sometimes irritating.
+2. Editing
+  linux: It is quite easy to ssh into a remote server from terminal, access file from terminal, and edit via vim.  This process is extremely fast.
+
+  Visual Studio: If the edits you are wanting to perform are quite large, it would make sense to grab a local copy, which you can quickly do using a program such as filezilla.  
+                 you can then use the very handy visual aids that come with a full fledged IDE, which include completing the commands for you (easily the biggest benefit). 
+
+3. Debugging
+  Linux: After a bit of tweaking my vim environment I was able to effortlessly debug the program. I was directed to one issue at a time, and was able to fix it.
+
+  Visual Studio: A much better, more efficient debuggins is the compiling as you write feature. This made debuggin a live event, rather than a follow up. pretty handy.
+
+4. executing
+
+    linux: simplicity.  It is very easy to run a program with linux through terminal using ./programname 
+
+    Visual Studio: f5 simply runs the program, after a succesful compile. Very easy and handy. 
